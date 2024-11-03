@@ -1,0 +1,93 @@
+* {
+  /* CSS RESET */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand';
+}
+
+div h1 {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.container-header {
+  margin: 20px;
+  padding: 10px;
+  border: double grey 8px;
+  box-shadow: 4px 4px grey;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition:all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: bold;
+  border: none;
+  -webkit-box-shadow: 5px 7px 17px -5px rgba(87, 255, 230, 1);
+  -moz-box-shadow: 5px 7px 17px -5px rgba(87, 255, 230, 1);
+  box-shadow: 5px 7px 17px -5px rgba(87, 255, 230, 1);
+  
+  border-radius: 5px;
+}
+
+.container-content {
+  margin: 20px;
+  padding: 10px;
+}
+
+div h2 {
+  text-decoration: underline;
+  color: rgb(45, 011, 123);
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 59px 10px 66px 10px;
+  -moz-border-radius: 59px 10px 66px 10px;
+  -webkit-border-radius: 59px 10px 66px 10px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 10px 10px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px -3px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+  width: 10%;
+  height: auto;
+}
+
+.instagram-container a {
+  display: flex;
+  align-items: center; /* Sejajarkan ikon dan teks secara vertikal */
+  text-decoration: none; /* Hilangkan garis bawah */
+  color: black; /* Atur warna teks sesuai kebutuhan */
+}
+
+.iconig {
+  margin-right: 8px; /* Atur jarak antara ikon dan teks */
+  width: 24px; /* Sesuaikan ukuran ikon */
+  height: 24px;
+}
