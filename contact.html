@@ -40,24 +40,61 @@
           <h2>Instagram</h2>
           <div class="instagram-container">
             <a href="https://www.instagram.com/mansl.sw?igsh=aHIzem54cmlzYXl1"
-              ><img src="assets/images/instagram.png" alt="IG" class="iconig"/>Instagram</a>
+              ><img
+                src="assets/images/instagram.png"
+                alt="IG"
+                class="iconig"
+              />Instagram</a
+            >
           </div>
         </article>
         <article class="card">
           <h2>Facebook</h2>
           <div class="facebook-container">
             <a href="https://www.facebook.com/salmanmufid.salmanmufid.7/"
-              ><img src="assets/images/facebook.png" alt="IG" class="iconig"/>Facebook</a>
+              ><img
+                src="assets/images/facebook.png"
+                alt="IG"
+                class="iconig"
+              />Facebook</a
+            >
           </div>
         </article>
         <article class="card">
           <h2>Gmail</h2>
           <div class="gmail-container">
-            <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=salmanmufid05@gmail.com"
-              ><img src="assets/images/gmail.png" alt="IG" class="icongml"/>Gmail</a>
+            <a
+              href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=salmanmufid05@gmail.com"
+              ><img
+                src="assets/images/gmail.png"
+                alt="IG"
+                class="icongml"
+              />Gmail</a
+            >
+          </div>
+        </article>
+        <article>
+          <div class="card">
+            <center>
+              <audio id="myAudio" controls>
+                <source
+                  src="assets/musics/I Like You So Much, You’ll Know It - Ysabelle [SLOWED] - iceound (youtube).mp3"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </center>
           </div>
         </article>
       </div>
+      <script>
+        var audio = document.getElementById("myAudio");
+        var volumeControl = document.getElementById("volumeControl");
+
+        volumeControl.addEventListener("input", function () {
+          audio.volume = this.value;
+        });
+      </script>
     </main>
     <footer></footer>
   </body>
