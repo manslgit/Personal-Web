@@ -91,7 +91,7 @@ div h2 {
 }
 
 .card img {
-  width: 8%;
+  width: 5%;
   height: auto;
 }
 
@@ -119,4 +119,16 @@ div h2 {
   margin-right: 15px;
   width: 15px;
   height: 15px;
+}
+
+.gmail-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.icongml {
+  margin-right: 20px;
+  height: 24px;
 }
